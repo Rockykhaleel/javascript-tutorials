@@ -113,3 +113,95 @@ let y = '1';
 // }
 
 // a<b ? console.log("a is big") : console.log("b is big"); // ternary operator
+
+//arthematic operators
+
+let ab = 2;
+let bc = 8;
+
+// add
+
+// console.log(ab);
+
+// ab--;
+
+// console.log(ab);
+
+//funations and scope
+
+// let global = 999;
+
+// function hannan(){
+//     console.log(global);
+// }
+
+// hannan()
+
+// console.log(global);
+
+//functions with parameters
+
+// function kasai(f){
+    // console.log(`I need ${f}kg of meat`);
+    // console.log(f+f);
+    // return f+f+f;
+// }
+
+// document.getElementById('id').innerHTML = kasai(5);
+
+//string manipulation
+
+let name = 'Hello corders';
+//length
+// console.log(name.length);
+
+//position 
+//console.log(name[0]);
+// console.log(name.at(0));
+
+//last position
+// console.log(name.at(-2));
+
+//slice
+// console.log(name.slice(0,2));
+
+//substring
+// console.log(name.substring(0,5));
+
+//replace
+// let rep = name.replace('corders','hannan');
+// console.log(rep);
+
+// let repp = name.replaceAll('Hello corders','habibi come to dubai')
+// console.log(repp);
+
+// console.log(name.toUpperCase());
+// console.log(name.toLowerCase());
+
+// let fname = 'abdul';
+// let lname = 'hannan';
+// console.log(fname.concat(lname));
+// console.log(fname+" "+lname);
+
+// console.log(name.trim());
+// console.log(name.trimStart());
+// console.log(name.trimEnd());
+
+// console.log(name.padStart(10,'a'));
+// console.log(name.padEnd(10,'a'));
+
+// console.log(name.charAt(0));
+
+// console.log(name.split(' '));
+
+// console.log(name.search('r'));
+
+// console.log(name.match('H'));
+// console.log(name.matchAll('l'));
+
+// console.log(name.includes('corders'));
+// console.log(name.startsWith('h'));
+
+let email = 'khaleel@gail.com'
+let valid = email.endsWith('@gmail.com')
+console.log(valid);
