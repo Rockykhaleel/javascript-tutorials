@@ -1,0 +1,12 @@
+.child > img {
+  height: 100px;
+  width: 100px;
+}
+#parent,
+h1 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 35px;
+  margin-top: 8rem;
+}
