@@ -167,13 +167,13 @@ const url = "https://api.publicapis.org/entries";
 //   .then((resp) => console.log(resp))
 //   .catch((err) => console.log(err));
 
-const datas = async () => {
-  try {
-    const resp = await fetch(url);
-    const data = await resp.json();
-    console.log(data);
-  } catch (error) {
-    console.log(error);
-  }
-};
-datas();
+// const datas = async () => {
+//   try {
+//     const resp = await fetch(url);
+//     const data = await resp.json();
+//     console.log(data);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+// datas();
